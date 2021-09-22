@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+}
+img {
+    outline: thick double black;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.above {
+    width: 100%;
+    top: 1vh;
+    background-color:  #654321;
+    position: relative;
+}
+.below {
+    width: 100%;
+    bottom: -40vh;
+    background-color:  #654321;
+    position: relative;
+} 

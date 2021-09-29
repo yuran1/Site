@@ -8,15 +8,52 @@ a {
     text-decoration: none;
     color: black;
 }
-.above {
-    width: 100%;
-    top: 1vh;
-    background-color:  #654321;
-    position: relative;
+.align {
+    display:inline-block
 }
-.below {
-    width: 100%;
-    bottom: -40vh;
-    background-color:  #654321;
-    position: relative;
+.container {
+    position: center;
+    width: auto;
+    display: inline;
+}
+.header-footer {
+    background-color: #654321;
+    padding: 10 px;
+    height: 100px;
+}
+.shiftright{
+    position: absolute;
+    right: 100px;
+}
+.item-frame{
+    display: inline-block;
+    margin: 20px,20px,20px,20px;
+    position: top;
+}
+.centered-pic>a>img{
+    display: block;
+    position: center;
+    width: 100px;
+    margin: 10px;
+}
+.fig {
+    display: inline;
+    float: left; 
+    padding-left: 10px; 
+    padding-bottom: 10px; 
+   }
+.item {
+    display: inline-block;
+    height: 300px;
+    width: 200px;
+    margin:20px, 20px, 20px, 20px;
+    border-style: solid;
+    display: inline-block;
+}
+.description{
+    width: 40px
+}
+.buy{
+    width: 100px;
+    height: 20px;
 } 

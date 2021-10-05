@@ -11,7 +11,7 @@ a {
 .align {
     display:inline-block
 }
-.container {
+.tcontainer {
     position: center;
     width: auto;
     display: inline;

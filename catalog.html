@@ -2,34 +2,53 @@
 <html lang="ru"></html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles/cssstyle1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <meta charset="utf-8">
     <title>Каталог</title>
 </head>
 <body>
-    <div class = item-frame>
-        <div class = "item">
-            <div class = "centered-pic">
-                <a href = "bear1.html"><img src = "pics\2010-kodiak-bear-1.jpg" alt = "test",></a>
-            </div>
-            <div class = description>
-                <p> Бурый Медведь </p>
-                <br>
-                <p>200000 р.</p>
-            </div>
-            <button class="buy">Купить</button>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <img src = "pics/logo.png" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none", width = 60>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="website.html" class="nav-link px-2 text-secondary">На стартовую</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Каталог</a></li>
+              <li><a href="about.html" class="nav-link px-2 text-white">О нас</a></li>
+            </ul>
+          </div>
         </div>
-        <div class = "item">
-            <div class = "centered-pic">
-                <a href = "#"><img src = "pics\Polar_Bear_-_Alaska_(cropped).jpg" alt = "test",></a>
+      </header>
+    <div class="card-group">
+          <div class="card">
+            <img src="pics/2010-kodiak-bear-1.jpg" class="card-img-top" alt="упс">
+            <div class="card-body">
+              <h5 class="card-title">Бурый медведь</h5>
+              <p class="card-text">
+                Сейчас бурый медведь исчез на большей части ареала; в остальных областях малочислен. В Западной Европе его разобщённые популяции сохранились на Пиренеях, Кантабрийских горах, Альпах и Апеннинах. Довольно распространён в Скандинавии и Финляндии, встречается в лесах Центральной Европы и в Карпатах. В Финляндии объявлен национальным животным.
+                В Азии он распространён от Передней Азии, Палестины, северного Ирака и Ирана до севера Китая и Корейского полуострова. В Японии встречается на острове Хоккайдо. В Северной Америке известен под названием «гризли» (раньше североамериканского бурого медведя выделяли в отдельный вид); он многочислен на Аляске, на западе Канады, имеются ограниченные популяции на северо-западе США.
+                Ареал бурого медведя в России занимает почти всю лесную зону, за исключением её южных районов. Северная граница ареала совпадает с южной границей тундры.</p>
+              <a href="bear1.html" class="btn btn-primary">Подробнее</a>
             </div>
-            <div class = description>
-                <p> Белый медведь - нет в наличии </p>
+          </div>
+          <div class="card">
+            <img src="pics/Polar_Bear_-_Alaska_(cropped).jpg" class = "card-img-top" alt = "упс">
+            <div class="card-body">
+              <h5 class="card-title">Белый медведь</h5>
+              <p class="card-text">Нет в наличии</p>
+              <a href="#" class="btn btn-primary disabled">Купить</a>
             </div>
+          </div>
+      </div>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+        <div class="col-md-4 d-flex align-items-center">
+          <img src = "pics/logo.png" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1", width = 60>
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="text-muted">Realmail@mailmail.com</span>
         </div>
-    </div>
-    <footer class = "header-footer">
-        <a href = "website.html"><p>На стартовую</p></a>
-        <a href = "about.html"><p>О нас</p></a>
-    </footer>  
+      </footer>
 </body>
 </html>

@@ -1,0 +1,2 @@
+test->main = 0 changes
+main->test != 0 changes 

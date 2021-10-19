@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="ru"></html>
 <head>
+    <link rel="stylesheet" type="text/css" href="styles/cssstyle1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
     <meta charset="utf-8">
     <title>Каталог</title>
 </head>
 <body>
-    <a href = "bear1.html"><img src = "pics\2010-kodiak-bear-1.jpg" alt = "test", width="1000"></a>
-    <a href = "bear1.html"><p>Бурый медведь</p></a>
-    <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C"><img src="pics\Polar_Bear_-_Alaska_(cropped).jpg" alt = "failure", width = "1000"></a>
-    <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D1%8B%D0%B9_%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C"><p>Белый медведь</p></a>
-    <a href = "website.html"><p>На стартовую</p></a>
-    <a href = "about.html"><p>О нас</p></a>  
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <img src = "pics/logo.png" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none", width = 60>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="website.html" class="nav-link px-2 text-secondary">На стартовую</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Каталог</a></li>
+              <li><a href="about.html" class="nav-link px-2 text-white">О нас</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    <div class="card-group">
+          <div class="card">
+            <img src="pics/2010-kodiak-bear-1.jpg" class="card-img-top" alt="упс">
+            <div class="card-body">
+              <h5 class="card-title">Бурый медведь</h5>
+              <p class="card-text">
+                Сейчас бурый медведь исчез на большей части ареала; в остальных областях малочислен. В Западной Европе его разобщённые популяции сохранились на Пиренеях, Кантабрийских горах, Альпах и Апеннинах. Довольно распространён в Скандинавии и Финляндии, встречается в лесах Центральной Европы и в Карпатах. В Финляндии объявлен национальным животным.
+                В Азии он распространён от Передней Азии, Палестины, северного Ирака и Ирана до севера Китая и Корейского полуострова. В Японии встречается на острове Хоккайдо. В Северной Америке известен под названием «гризли» (раньше североамериканского бурого медведя выделяли в отдельный вид); он многочислен на Аляске, на западе Канады, имеются ограниченные популяции на северо-западе США.
+                Ареал бурого медведя в России занимает почти всю лесную зону, за исключением её южных районов. Северная граница ареала совпадает с южной границей тундры.</p>
+              <a href="bear1.html" class="btn btn-primary">Подробнее</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="pics/Polar_Bear_-_Alaska_(cropped).jpg" class = "card-img-top" alt = "упс">
+            <div class="card-body">
+              <h5 class="card-title">Белый медведь</h5>
+              <p class="card-text">Нет в наличии</p>
+              <a href="#" class="btn btn-primary disabled">Купить</a>
+            </div>
+          </div>
+      </div>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+        <div class="col-md-4 d-flex align-items-center">
+          <img src = "pics/logo.png" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1", width = 60>
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="text-muted">Realmail@mailmail.com</span>
+        </div>
+      </footer>
 </body>
 </html>

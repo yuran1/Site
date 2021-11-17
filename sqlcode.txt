@@ -43,5 +43,5 @@ update Клиенты set Дата_регистрации = SUBSTR(Дата_регистрации, 7, 4) || '-' || S
 SELECT Логин, MAX(Дата_регистрации) AS 'max_date' FROM Клиенты ;
 SELECT DISTINCT(substr(Дата_рождения, 7, 4)) FROM Клиенты;
 SELECT ID, COUNT(*) FROM Медведи;
-Последняя не получилась
+
 
